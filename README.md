@@ -2,12 +2,24 @@ Khristin Schenk<br>
 Feb 10th, 2025<br>
 SDEV-220<br>
 
-# Module 4 Lab - Case Study: *Python APIs*
+# SDEV 220, M-04
 
-## Instructions
+***Due: Mon Feb 10, 2025 10:59pm***
+
+## Module 4 Tutorial - Django 
+
+Complete the following sections of the tutorial:
+- [x] Django installation
+- [ ] Your first Django Project
+- [ ] Django Models
+- [ ] Django admin
+
+---
+
+## Module 4 Lab - Case Study: *Python APIs*
+
+### Instructions
 *After watching the video by Caleb Curry, create a CRUD API for a Book instead of a Drink, as demonstrated in the video example.*
-
-> YouTube Video by Caleb Curry: *[REST API Crash Course - Introduction + Full Python API Tutorial](https://www.youtube.com/watch?v=qbLc5a9jdXo&ab_channel=CalebCurry)*
 
 **The Book model should have the following parameters:**
 - id
@@ -15,10 +27,13 @@ SDEV-220<br>
 - author
 - publisher
 
-### NOTES
+> YouTube Video by Caleb Curry: *[REST API Crash Course - Introduction + Full Python API Tutorial](https://www.youtube.com/watch?v=qbLc5a9jdXo&ab_channel=CalebCurry)*
 
 
-### Pseudocode (V.01)
+## NOTES
+
+#### Pseudocode (V.01)
+
 ```pseudocode
 Initialize Flask app
 Configure app to use SQLite database
@@ -59,7 +74,10 @@ Define route to delete a book by id
 Run app in debug mode
 ```
 
-### Python Code (V.01)
+---
+
+#### Python Code (V.01)
+
 ```python
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
@@ -116,7 +134,10 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-### References
+
+---
+
+##  References
 
 Omareeo. (2025). _Flask CRUD API for data management._ GitHub. Retrieved from [https://github.com/Omareeo/Python-Flask-CRUD-API](https://github.com/Omareeo/Python-Flask-CRUD-API)
 
